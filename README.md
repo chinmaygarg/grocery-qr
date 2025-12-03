@@ -15,4 +15,4 @@ This project contains five mobile-optimized product landing pages designed to be
 
 Open any `pages/product-*.html` file in a mobile browser (or via a QR code URL) to see its product details.
 
-.
+
