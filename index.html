@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Groceries • QR Product Pages</title>
+    <meta name="description" content="Ultra-fast, mobile-first grocery product pages for QR codes." />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <style>
+      body { align-items: center; }
+      .page-shell { justify-content: center; }
+      .hub-card {
+        width: 100%;
+        max-width: 480px;
+        border-radius: 24px;
+        padding: 16px 16px 14px;
+        background: radial-gradient(circle at top left, rgba(56,189,248,0.35), transparent 55%),
+                    radial-gradient(circle at bottom right, rgba(34,197,94,0.3), transparent 55%),
+                    linear-gradient(145deg, rgba(15,23,42,0.98), rgba(15,23,42,0.96));
+        border: 1px solid rgba(148,163,184,0.24);
+        box-shadow: 0 24px 60px rgba(15,23,42,0.9);
+      }
+      .hub-title { font-size: 19px; font-weight: 650; margin-bottom: 4px; }
+      .hub-sub { font-size: 12px; color: #9ca3af; margin-bottom: 12px; }
+      .hub-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+      .hub-item { border-radius: 16px; padding: 8px 11px; background: rgba(15,23,42,0.98); border: 1px solid rgba(51,65,85,0.9); display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+      .hub-item-main { display: flex; flex-direction: column; gap: 2px; }
+      .hub-item-title { font-size: 14px; }
+      .hub-item-meta { font-size: 11px; color: #9ca3af; }
+      .hub-item-link { font-size: 11px; padding: 6px 11px; border-radius: 999px; background: #0f172a; border: 1px solid rgba(148,163,184,0.7); text-decoration: none; color: #e5e7eb; }
+    </style>
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hub-card" aria-label="Product QR Links">
+        <div class="page-header" style="margin-bottom: 8px;">
+          <div class="brand-chip">
+            <span class="brand-dot"></span>
+            <span class="brand-label">Fresh Basket</span>
+          </div>
+          <span class="badge-fresh"><span class="badge-dot"></span>Scan • Shop • Go</span>
+        </div>
+        <h1 class="hub-title">QR Product Gallery</h1>
+        <p class="hub-sub">Each QR code opens directly to a mobile-first page below. Use these links while testing or sharing.</p>
+        <ul class="hub-list">
+          <li class="hub-item">
+            <div class="hub-item-main">
+              <span class="hub-item-title">Organic Honeycrisp Apples</span>
+              <span class="hub-item-meta">Crisp, sweet, perfect for snacking</span>
+            </div>
+            <a class="hub-item-link" href="./pages/product-apples.html">Open</a>
+          </li>
+          <li class="hub-item">
+            <div class="hub-item-main">
+              <span class="hub-item-title">Almond Barista Oat Milk</span>
+              <span class="hub-item-meta">Dairy-free, silky foam for coffee</span>
+            </div>
+            <a class="hub-item-link" href="./pages/product-oat-milk.html">Open</a>
+          </li>
+          <li class="hub-item">
+            <div class="hub-item-main">
+              <span class="hub-item-title">Cold Brew Coffee Concentrate</span>
+              <span class="hub-item-meta">Smooth, low-acid, 4x concentrate</span>
+            </div>
+            <a class="hub-item-link" href="./pages/product-cold-brew.html">Open</a>
+          </li>
+          <li class="hub-item">
+            <div class="hub-item-main">
+              <span class="hub-item-title">Greek Yogurt Granola Bowl</span>
+              <span class="hub-item-meta">High-protein breakfast, zero fuss</span>
+            </div>
+            <a class="hub-item-link" href="./pages/product-granola.html">Open</a>
+          </li>
+          <li class="hub-item">
+            <div class="hub-item-main">
+              <span class="hub-item-title">Mixed Berry Antioxidant Mix</span>
+              <span class="hub-item-meta">Flash-frozen berries for smoothies</span>
+            </div>
+            <a class="hub-item-link" href="./pages/product-berries.html">Open</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
